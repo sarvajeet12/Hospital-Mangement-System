@@ -1,0 +1,35 @@
+.updateSection{
+    /* border: 1px solid blue; */
+    margin-bottom: 8rem;
+}
+
+.updateSection h1{
+    text-transform: uppercase;
+    
+}
+
+.updateSection form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.updateSection form input[type="text"]{
+    cursor:not-allowed;
+}
+
+select{
+    text-transform: capitalize;
+}
+
+.updateSection form input[type="text"],select{
+    width: 50%;
+    padding: 0 .5rem;
+    font-size: 1.4rem;
+    height: 3.3rem;
+    margin-bottom: 2rem;
+}
+
+.updateSection form input[type="submit"]{
+    width: 15%;
+}

@@ -1,0 +1,54 @@
+.homeSection{
+    /* border: 2px solid blue; */
+    margin: 10rem auto 8rem auto;
+}
+
+.homeSection .firstSection div:nth-child(1) h1, .homeSection .secondSection div:nth-child(2) h1{
+    max-width: 70%;
+    /* border: 1px solid darkcyan; */
+}
+
+.homeSection .firstSection div:nth-child(1) h1{
+    font-size: 3.5rem;
+}
+
+.homeSection .secondSection div:nth-child(2) h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.homeSection .firstSection div:nth-child(1) p, .homeSection .secondSection div:nth-child(2) p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    max-width: 80%;
+    margin-top: 2.5rem;
+}
+
+
+.homeSection .firstSection div:nth-child(2) img, .homeSection .secondSection div:nth-child(1) img{
+    /* height: 90%; */
+    width: 80%;
+    height: 90%;
+    /* border: 1px solid green; */
+}
+
+.homeSection .secondSection{
+    /* border: 1px solid fuchsia; */
+    margin-top: 10rem;
+}
+
+
+/* ========================third section */
+.thirdSection{
+    /* border: 1px solid fuchsia; */
+    margin-top: 10rem;
+}
+
+.thirdSection h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+

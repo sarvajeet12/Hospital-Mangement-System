@@ -1,0 +1,28 @@
+.card{
+    position: relative;
+    margin: 0 .5rem;
+}
+
+.card h2{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ecf0f1;
+    padding: 1rem 3rem;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.card img{
+    width: 100%;
+    height: 30rem;
+    
+}

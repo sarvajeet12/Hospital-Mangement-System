@@ -1,0 +1,44 @@
+.secondSection{
+    margin-top: 8rem;
+}
+
+.secondSection div{
+    margin-top: 2rem;
+}
+
+.secondSection div form div:nth-child(1), 
+.secondSection div form div:nth-child(2),
+.secondSection div form div:nth-child(3),
+.secondSection div form div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondSection div form input[type="text"],
+.secondSection div form input[type="email"],
+.secondSection div form input[type="number"],
+.secondSection div form input[type="date"], .appointmentSelect{
+    height: 3.3rem;
+    padding: 0 .5rem;
+    font-size: 1.3rem;
+    outline: none;
+    width: 48%;
+}
+
+
+.secondSection div form textarea{
+    width: 100%;
+    height: 23rem;
+    resize: none;
+    padding: 1rem;
+    outline: none;
+}
+
+.secondSection div form div:last-child{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.secondSection div form div:last-child input[type="submit"]{
+    width: 15%;
+}

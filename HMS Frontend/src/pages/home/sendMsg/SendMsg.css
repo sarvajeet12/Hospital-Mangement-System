@@ -1,0 +1,41 @@
+/* .formSection form{
+    border: 1px solid forestgreen;
+} */
+
+.formSection form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+    
+}
+
+
+.formSection form input[type="text"],
+.formSection form input[type="email"],
+.formSection form input[type="number"]{
+    width: 70%;
+    height: 3.3rem;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.formSection form textarea{
+    width: 70%;
+    height: 23rem;
+    resize: none;
+    padding: 1rem;
+    outline: none;
+}
+
+.formSection form div{
+    text-align: left;
+    margin-top: 3rem;
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.formSection form div input[type="submit"]{
+    width: 15%;
+}

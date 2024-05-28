@@ -1,0 +1,36 @@
+.adminNavSection{
+    /* border: 1px solid blue; */
+    margin: 10rem auto 5rem auto;
+}
+
+.adminNavSection ul {
+    display: flex;
+    column-gap: 5rem;
+}
+
+
+/* a (anchor tag) is equal to Link*/
+.adminNavSection ul li a{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ? ------------------------------- Hover Effect ---------------------- */
+.adminNavSection ul li a::after{
+   content: '';
+   display: block;
+   width: 0px;
+   height: 2px;
+   background-color: #000;
+
+   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+}
+
+.adminNavSection ul li a:hover:after{
+    width: 100%;
+}

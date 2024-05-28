@@ -1,0 +1,47 @@
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ecf0f1;
+   
+}
+
+/* box shadow of navbar */
+.navBoxShadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    
+
+.navbar div h1{
+    font-size: 3rem;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 5rem;
+}
+
+/* a (anchor tag) is equal to Link*/
+.navbar ul li a{
+    font-size: 1.5rem;
+    color: var(--navList-color);
+}
+
+/* button section */
+.navbar .btnBox{
+    width: 8%;
+}
+
+.navbar .btn{
+    background-color: #000;
+    color: #fff;
+}
